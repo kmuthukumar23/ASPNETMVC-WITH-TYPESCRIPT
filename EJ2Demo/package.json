@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "name": "ASP.NET",
+  "devDependencies": {
+    "source-map-loader": "0.1.6",
+    "typescript": "2.1.5",
+    "webpack": "2.2.1"
+  },
+  "scripts": {
+    "build": "tsc && webpack --config webpack.config.js"
+  },
+  "dependencies": {
+    "@syncfusion/ej2": "^16.1.30"
+  }
+}
